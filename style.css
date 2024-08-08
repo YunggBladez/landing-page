@@ -657,8 +657,11 @@ input:where([type="text"], [type="email"], ) {
   .hero__image {
     order: -1;
   }
-}
 
+  .display-sm-none {
+    display: none;
+  }
+}
 /* Utility classes */
 
 .visually-hidden {
@@ -787,10 +790,6 @@ input:where([type="text"], [type="email"], ) {
 
 .mx-auto {
   margin-inline: auto;
-}
-
-.display-sm-none {
-  display: none;
 }
 
 section {
