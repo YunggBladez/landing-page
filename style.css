@@ -550,6 +550,14 @@ input:where([type="text"], [type="email"], ) {
   .hero1 {
     text-align: left;
   }
+
+  .whats-diff {
+    text-align: left !important;
+  }
+
+  .whats-diff-text {
+    text-align: left !important;
+  }
 }
 
 @media (max-width: 47em) {
@@ -675,12 +683,25 @@ input:where([type="text"], [type="email"], ) {
   .hero {
     text-align: center;
   }
+
   .whats-diff {
+    text-align: center;
+  }
+
+  .whats-diff-text {
     text-align: center;
   }
 }
 
 @media (max-width: 30em) {
+  .whats-diff {
+    text-align: center;
+  }
+
+  .whats-diff-text {
+    text-align: center;
+  }
+
   .numbered-items div::after {
     --bg: var(--clr-accent-100);
     content: "";
@@ -691,10 +712,6 @@ input:where([type="text"], [type="email"], ) {
     grid-row: 1 / 2;
     box-shadow: 5em 0 0 var(--bg);
     background: var(--bg);
-  }
-
-  .whats-diff {
-    text-align: center !important;
   }
 }
 
